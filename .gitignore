@@ -1,0 +1,29 @@
+# ============================================================
+# Respaldos y temporales de DrRacket
+# ============================================================
+# Respaldo al guardar (Windows: archivo.rkt.bak / Linux-Mac: archivo.rkt~)
+*.bak
+*~
+# Autoguardado de DrRacket: #archivo.rkt#1#
+\#*#
+.#*
+# Compilados de Racket (raco make / DrRacket)
+compiled/
+*.zo
+*.dep
+
+# ============================================================
+# Material que NO se sube al repositorio
+# ============================================================
+# Codigos vistos en clase (referencia personal)
+Codigos Visto en clase/
+# Enunciado y reparto en PDF
+*.pdf
+
+# ============================================================
+# Sistema operativo / editores
+# ============================================================
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
